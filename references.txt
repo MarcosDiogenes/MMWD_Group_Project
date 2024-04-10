@@ -26,3 +26,5 @@ Images: {
 }
 
 Deployed Website URL: https://marcosdiogenes.github.io/MMWD_Group_Project/index.html
+
+Presentation: https://www.canva.com/design/DAGCDUm9_7k/Ud8tzoGejVkwVJ4PNc-Zag/edit?utm_content=DAGCDUm9_7k&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
