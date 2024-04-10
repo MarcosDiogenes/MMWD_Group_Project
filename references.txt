@@ -1,0 +1,29 @@
+YouTube Video: {
+
+    Antiaging skin care tips with RoC Skincare, from the Good Morning America channel.
+    
+    Available at https://www.youtube.com/watch?v=_5NHL2i2Xw0
+
+}
+
+Images: {
+
+    Company logo and "chemicals" image in Index: https://www.rocskincare.com/pages/about-us-roc-story
+
+    Other images throughout the site:
+    {
+        https://www.sportskeeda.com/lifestyle/8-best-roc-skincare-products-avail-2024
+
+        https://mamainheels.com/2016/07/20/affordable-anti-aging-treatments/
+
+        https://thoushaltnotcovet.net/2022/03/31/roc-skincare-multi-correxion-revive-glow-range-first-impressions/
+
+        https://adage.com/article/digital-marketing-ad-tech-news/roc-skincare-names-gravity-road-its-tiktok-agency-record-inside-growing-trend/2512786
+
+        https://www.prnewswire.com/news-releases/new-roc-skincare-wrinkle-ranking-study-reveals-how-wrinkles-and-zip-codes-are-interconnected-263447371.html
+    }
+    
+
+
+
+}

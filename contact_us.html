@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <br><br>
+        <div class="header_text_slideshow">
+
+            <div class="textSlides fade">
+
+                <div class="slide-text">Douglas College</div>
+            </div>
+
+            <div class="textSlides fade">
+
+                <div class="slide-text">Multimedia Web Development</div>
+            </div>
+
+            <div class="textSlides fade">
+
+                <div class="slide-text">Instructor: Reza Ghaeli</div>
+            </div>
+
+            <div class="textSlides fade">
+
+                <div class="slide-text">Made by Marcos and Shakirat</div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <nav id="navbar" class="navbar">
+
+        <div class="logo">
+            <a href="index.html"><img
+                    src="https://www.rocskincare.com/cdn/shop/files/roc-logo_180x_9d36d666-bda3-40fb-9d81-1cecaee9aebe.png?v=1696535865&width=150"
+                    alt="RoC Logo"></a>
+        </div>
+
+        <div class="nav_links">
+            <a href="product_line.html">Our Product Line</a>
+            <a href="team_info.html">Meet the Designers</a>
+        </div>
+
+        <div class="contact"><a href="contact_us.html">Get in touch</a></div>
+
+    </nav>
+
+    <div class="nav_mobile">
+
+        <div class="logo">
+            <a href="index.html"><img
+                    src="https://www.rocskincare.com/cdn/shop/files/roc-logo_180x_9d36d666-bda3-40fb-9d81-1cecaee9aebe.png?v=1696535865&width=150"
+                    alt="RoC Logo"></a>
+        </div>
+
+        <div class="nav_links">
+            <a href="product_line.html">Our Product Line</a>
+            <a href="team_info.html">Meet the Team</a>
+            <a href="contact_us.html">Get in Touch</a>
+        </div>
+
+    </div>
+
+    <main class="main">
+
+        <h2>
+            Leave Us a Message
+        </h2>
+        <p>Your feedback is invaluable to us. Feel free to leave a review of our products, ask questions or network with us. We look forward to hearing from you!</p>
+
+        <h3>Message Form</h3>
+
+        <div class="formsContainer" style="display: flex;">
+
+            <div class="input1">
+
+                <label for="inputName">Full Name</label>
+
+                <input type="text" id="inputName" name="inputName" placeholder="Nice to meet you"
+                    style="margin-left: 5px; margin-bottom: 20px; margin-right: 20px; font-size: 16px">
+
+            </div>
+
+            <div class="input2">
+
+                <label for="inputEmail"> E-mail </label>
+
+                <input type="email" id="inputEmail" name="inputEmail" placeholder="example@mail.com"
+                    style="margin-left: 5px; margin-bottom: 20px;margin-right: 20px; font-size: 16px">
+
+            </div>
+
+
+            <div class="input3">
+                <label for="country">Country</label>
+
+                <select id="country" name="country" style="margin-bottom: 20px; margin-left: 5px; font-size: 16px">
+                    <option value="Canada">Canada</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Nigeria">Nigeria</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <form style="margin-bottom: 20px;">
+            <textarea placeholder="Tell us everything!"></textarea>
+            <input type="submit" onclick="alert('Your message is greatly appreciated! We will respond to you as soon as possible')" value="Submit" style="height: 50px; font-size: 16px; width: 100px; margin-bottom: 20px; background-color: #ab7e27; color: white; border: 0px; border-radius: 5px;">
+        </form>
+
+    </main>
+
+    <footer class="footer">
+
+        <div class="footer_contents">
+            <h3>Thanks for your visit!</h3>
+            <p>This website is a product of academic coursework completed as part of a Multimedia Web Development course
+                at Douglas College. It is based on a fictitious company and is solely intended for educational purposes.
+                Douglas College has no affiliation or connection with the company portrayed in the content of this
+                website.</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <style>
+        textarea {
+            width: 100%;
+            height: 250px;
+            padding: 12px 20px;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            font-size: 16px;
+            resize: none;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 920px){
+
+            .formsContainer{
+                flex-direction: column;
+            }
+
+        }
+    </style>
+
+</body>
+
+</html>
