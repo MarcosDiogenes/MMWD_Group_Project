@@ -22,8 +22,7 @@ Images: {
 
         https://www.prnewswire.com/news-releases/new-roc-skincare-wrinkle-ranking-study-reveals-how-wrinkles-and-zip-codes-are-interconnected-263447371.html
     }
-    
-
-
 
 }
+
+Deployed Website URL: https://marcosdiogenes.github.io/MMWD_Group_Project/index.html
